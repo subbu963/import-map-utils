@@ -1,7 +1,14 @@
 {
   "name": "@subbu963/import-map-utils",
   "type": "module",
-  "version": "0.1.3",
+  "version": "0.1.4",
+  "description": "⚡ Utilities to super-charge your ES Modules!",
+  "repository": "https://github.com/subbu963/import-map-utils",
+  "author": {
+		"name": "Aditya Subramanyam",
+		"email": "subramanyam963@gmail.com",
+		"url": "https://lordofthethings.xyz/"
+	},
   "exports": {
     "css-loader": "./lib/css/loader.js"
   },
