@@ -12,5 +12,15 @@
   },
   "devDependencies": {
     "http-server": "^14.1.1"
-  }
+  },
+  "keywords": [
+    "esm",
+    "esmodules",
+    "css",
+    "css-loader",
+    "import-map",
+    "importmap",
+    "import-maps",
+    "loader"
+  ]
 }

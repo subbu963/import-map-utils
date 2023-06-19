@@ -1,10 +1,17 @@
 <html>
     <head>
-        <base href="http://localhost:8081/examples/css/">
+        <script>
+            window.__importMapUtils = {
+                css: {
+                    assetsRoot: '/examples/css/'
+                }
+            };
+        </script>
         <script type="importmap">
             {
                 "imports": {
-                    "main": "./main.js"
+                    "main": "./main.js",
+                    "import-map-utils/": "/lib/"
                 }
             }
         </script>
