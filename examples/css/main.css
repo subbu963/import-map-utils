@@ -1,0 +1,5 @@
+@import url(./child.css);
+
+#main {
+    color: red;
+}
