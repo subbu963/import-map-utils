@@ -1,7 +1,11 @@
 {
   "name": "@subbu963/import-map-utils",
-  "version": "0.1.0",
-  "main": "index.js",
+  "type": "module",
+  "version": "0.1.2",
+  "exports": {
+    "css": "./lib/css/css.js",
+    "css-base": "./lib/css/css-base.js"
+  },
   "license": "MIT",
   "scripts": {
     "demo": "http-server -p 8081"
