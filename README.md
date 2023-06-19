@@ -37,8 +37,13 @@ In your html file add the following script(where `assetsRoot` is the path from w
 Then in your ES Module import your css files like this:
 ```javascript
 import styles from 'import-map-utils/css/loader.js?src=./main.css';
-
+// Now styles are auto injected into the DOM
 // Some code
+// You can also unmount your styles if you want to do a cleanup like this
+styles.unmount();
+
+// You can remount it using
+styles.mount();
 ```
 
 ### Options
