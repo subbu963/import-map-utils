@@ -25,7 +25,7 @@ In your html file add the following script(where `assetsRoot` is the path from w
         <script type="importmap">
             {
                 "imports": {
-                    "import-map-utils/": "https://cdn.jsdelivr.net/npm/@subbu963/import-map-utils@0.1.3/lib/"
+                    "import-map-utils/": "https://cdn.jsdelivr.net/npm/@subbu963/import-map-utils@0.1.4/lib/"
                 }
             }
         </script>
