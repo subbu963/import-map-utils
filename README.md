@@ -8,7 +8,8 @@
 
 ## CSS loader
 You can use the `CSS loader` to load css in your ES Modules.
-
+### The problem with loading css from ES Modules
+Although there are ways to load CSS in ESM using a combination of `import assertions` and `Constructible stylesheets`(more about it [here](https://web.dev/css-module-scripts/)), they have one major shortcoming, i.e., `@import rules`. Import assertions internally uses `Constructible stylesheets` which doesnt allow `@import rules` in css files. CSS Loader tries to solve this problem by allowing you to import your css directly from your ESM while also allowing you to use `@import rules`.
 ### Usage
 In your html file add the following script(where `assetsRoot` is the path from which you css is served from) and import map:
 ```html
